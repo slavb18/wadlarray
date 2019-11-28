@@ -1,0 +1,15 @@
+<application
+    xmlns="http://wadl.dev.java.net/2009/02"
+>
+    <grammars>
+    </grammars>
+    <resources>
+        <resource path="testresource">
+            <method name="GET" id="testmethod">
+                <response>
+                    <representation mediaType="application/octet-stream"/>
+                </response>
+            </method>
+        </resource>
+    </resources>
+</application>
